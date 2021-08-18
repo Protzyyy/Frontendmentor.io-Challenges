@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: $fontfamily;
+  font-size: $fontsize;
+  background-color: $darkcyan;
+}
+.card {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 350px;
+  height: 375px;
+  border-radius: 20px;
+  background-color: $white;
+}
+.cover {
+  width: 100%;
+  height: 140px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(../images/bg-pattern-card.svg);
+}
+.profile {
+  width: 96px;
+  height: 96px;
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid $white;
+  background-image: url(../images/image-victor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.info {
+  width: 100%;
+  height: 79px;
+  text-align: center;
+  padding-top: 66px;
+
+  &__name:nth-child(1) {
+    font-weight: 700;
+    color: $verydark;
+    display: inline;
+  }
+
+  &__name:nth-child(2) {
+    font-weight: 400;
+    color: $grayishblue;
+    display: inline;
+  }
+
+  &__name:nth-child(3) {
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 14px;
+    display: block !important;
+    color: $grayishblue;
+  }
+}
+.stats {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid $darkgray;
+
+  &__social {
+    text-align: center;
+    width: 33%;
+    float: left;
+    height: 89px;
+  }
+  &__count {
+    font-weight: 700;
+    color: $verydark;
+    margin-bottom: 11px;
+  }
+  &__name {
+    font-weight: 400px;
+    font-size: 12px;
+    margin-top: 0px;
+    color: $grayishblue;
+  }
+}
+.topimage {
+  top: 0;
+  margin-top: -550px;
+  left: 0;
+  margin-left: -328px;
+  position: fixed;
+}
+.bottomimage {
+  top: 51%;
+  left: 50%;
+  position: fixed;
+}
+@media screen and (max-width: 600px) {
+  .topimage {
+    margin-top: -700px;
+    margin-left: -620px;
+  }
+  .bottomimage {
+    top: 47%;
+    left: 35%;
+  }
+}
