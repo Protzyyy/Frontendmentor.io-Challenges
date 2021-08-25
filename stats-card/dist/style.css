@@ -1,0 +1,143 @@
+/* Background */
+/* Card Background */
+/* Accent? */
+/* Main Heading and Stats */
+/* Main Paragraph */
+/* Stats Heading */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #090b1a;
+  font-size: 15px;
+}
+
+.main {
+  width: 1109px;
+  height: 447px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #1b1938;
+  border-radius: 5px;
+}
+
+.btext {
+  width: 50%;
+  height: 447px;
+  float: left;
+}
+
+.layer {
+  width: 50%;
+  height: 447px;
+  float: right;
+  background-image: url(../images/image-header-desktop.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 2000px 0 0 0 rgba(170, 92, 219, 0.5);
+          box-shadow: inset 2000px 0 0 0 rgba(170, 92, 219, 0.5);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.text {
+  width: 378px;
+  height: 305px;
+  margin: auto;
+  margin-top: 78px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.text__header {
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.text__difftext {
+  color: #aa5cdb;
+}
+
+.text__paragraph {
+  margin-top: 33px;
+  margin-bottom: 81px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  width: 347px;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 46px;
+  width: 378px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.stats p {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.stats span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+}
+
+.stats div:not(:first-child) {
+  margin-left: 65px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    height: 900px;
+  }
+  .main {
+    width: 94%;
+    height: 760px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 88px;
+    top: 0;
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    position: inherit;
+  }
+  .text {
+    float: none;
+    display: block;
+    margin-top: 286px;
+    text-align: center;
+    width: 100%;
+  }
+  .text__header {
+    width: 96%;
+  }
+  .text__paragraph {
+    width: 96%;
+    margin-bottom: 49px;
+  }
+  .layer {
+    float: none;
+    height: 241px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    display: block;
+  }
+  .stats {
+    display: block;
+  }
+  .stats div {
+    margin-left: 0px !important;
+  }
+  .btext {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px) {
+  body {
+    height: 900px;
+  }
+  .main {
+    width: 94%;
+    height: 760px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 88px;
+    top: 0;
+    left: 0;
+    transform: none;
+    position: inherit;
+  }
+  .text {
+    float: none;
+    display: block;
+    margin-top: 286px;
+    text-align: center;
+    width: 100%;
+    &__header {
+      width: 96%;
+    }
+    &__paragraph {
+      width: 96%;
+      margin-bottom: 49px;
+    }
+  }
+  .layer {
+    float: none;
+    height: 241px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    display: block;
+  }
+  .stats {
+    display: block;
+  }
+  .stats div {
+    margin-left: 0px !important;
+  }
+  .btext {
+    width: 100%;
+  }
+}
