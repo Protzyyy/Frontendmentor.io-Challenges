@@ -1,0 +1,58 @@
+@media screen and (max-width: 700px) {
+  body {
+    height: 1550px;
+  }
+  .main {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    top: 0;
+    left: 0;
+    transform: none;
+    position: inherit;
+  }
+  .flexing {
+    display: block;
+    width: 100%;
+    margin-top: 88px;
+  }
+  .flexing > div {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .sedan {
+    border-radius: 10px 10px 0px 0px;
+    &__mainsedan {
+      margin-top: 0px;
+    }
+    &__icon {
+      padding-top: 48px;
+    }
+    &__learn {
+      margin-bottom: 48px;
+    }
+  }
+  .suv {
+    &__mainsuvs {
+      margin-top: 0px;
+    }
+    &__icon {
+      padding-top: 48px;
+    }
+    &__learn {
+      margin-bottom: 48px;
+    }
+  }
+  .luxury {
+    border-radius: 0px 0px 10px 10px;
+    &__mainluxury {
+      margin-top: 0px;
+    }
+    &__icon {
+      padding-top: 48px;
+    }
+    &__learn {
+      margin-bottom: 48px;
+    }
+  }
+}

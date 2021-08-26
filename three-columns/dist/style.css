@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.main {
+  width: 920px;
+  height: 501px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.flexing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sedan {
+  background-color: #e38826;
+  width: 308px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.sedan__mainsedan {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.sedan__header {
+  color: #fff;
+  margin-top: 43px;
+  font-size: 33px;
+  margin-bottom: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  letter-spacing: 2px;
+}
+
+.sedan__paragraph {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedan__learn {
+  margin-top: 86px;
+  width: 150px;
+  height: 52px;
+  border-radius: 50px;
+  border: none;
+  color: #e38826;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.sedan__learn:hover {
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.suv {
+  background-color: #006970;
+  width: 308px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.suv__mainsuvs {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.suv__header {
+  color: #fff;
+  margin-top: 43px;
+  font-size: 33px;
+  margin-bottom: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  letter-spacing: 2px;
+}
+
+.suv__paragraph {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.suv__learn {
+  margin-top: 86px;
+  width: 150px;
+  height: 52px;
+  border-radius: 50px;
+  border: none;
+  color: #006970;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.suv__learn:hover {
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.luxury {
+  background-color: #004241;
+  width: 308px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.luxury__mainluxury {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.luxury__header {
+  color: #fff;
+  margin-top: 43px;
+  font-size: 33px;
+  margin-bottom: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  letter-spacing: 2px;
+}
+
+.luxury__paragraph {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.luxury__learn {
+  margin-top: 86px;
+  width: 150px;
+  height: 52px;
+  border-radius: 50px;
+  border: none;
+  color: #004241;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.luxury__learn:hover {
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    height: 1550px;
+  }
+  .main {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    top: 0;
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    position: inherit;
+  }
+  .flexing {
+    display: block;
+    width: 100%;
+    margin-top: 88px;
+  }
+  .flexing > div {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .sedan {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sedan__mainsedan {
+    margin-top: 0px;
+  }
+  .sedan__icon {
+    padding-top: 48px;
+  }
+  .sedan__learn {
+    margin-bottom: 48px;
+  }
+  .suv__mainsuvs {
+    margin-top: 0px;
+  }
+  .suv__icon {
+    padding-top: 48px;
+  }
+  .suv__learn {
+    margin-bottom: 48px;
+  }
+  .luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .luxury__mainluxury {
+    margin-top: 0px;
+  }
+  .luxury__icon {
+    padding-top: 48px;
+  }
+  .luxury__learn {
+    margin-bottom: 48px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
